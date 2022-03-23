@@ -8,7 +8,7 @@ import Logo from '../images/Logo.png';
 
 const Navbar = () => {
   return (
-    <AppBar position="fixed" color='inherit'>
+    <AppBar position="sticky" color='inherit'>
       <Toolbar>
         <Typography flexGrow={1}>
           <Box component="img" src={Logo} maxWidth={180} height={40} />
